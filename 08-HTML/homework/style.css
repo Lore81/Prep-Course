@@ -1,22 +1,48 @@
-h1{
-    color: brown;
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{ 
+    color: rgb(37, 195, 235);
 }
 img{
     width:400px;
 }
+.padre{
+    width:650px;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    margin-left:300px ;
+      
+}
+.vertical-container{
+    /*height: 800px;
+    background-color: chartreuse;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
 #thirdDiv{
- height: 600PX;
- width: 500PX;
- background-color: chocolate;
- padding: 50px;
- border-color: 5px solid darkslategray;
- border-style: double;
+    height: 600px;
+    width: 500px;
+    background-color:rgb(187, 245, 247);
+    padding: 50px;
+    border-color: 5px solid darkslategray;
+    border-style: double;
+   
+
 }
 #divClass{
-
+    margin: auto;
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
-
 }
+
